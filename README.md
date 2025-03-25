@@ -12,10 +12,11 @@ Algorytm Q-learning dla agenta, który samodzielnie uczy się rozwiązywać labi
 Monitorowanie trasy agenta i zapisywanie postępów w postaci tabeli Q.
 Zmienność labiryntów w trakcie działania aplikacji (losowe generowanie nowych labiryntów).
 Możliwość dostosowywania parametrów uczenia agenta: epsilon, learning rate, discount factor.
-Instalacja
+
+## Instalacja
 Aby uruchomić aplikację na swoim systemie, wykonaj następujące kroki:
 
-Klonowanie repozytorium
+### Klonowanie repozytorium
 
 Skopiuj repozytorium na swoje lokalne urządzenie:
 
@@ -23,7 +24,7 @@ Skopiuj repozytorium na swoje lokalne urządzenie:
 
 git clone https://github.com/TwojeKonto/NazwaRepozytorium.git
 ```
-Instalacja wymaganych bibliotek
+### Instalacja wymaganych bibliotek
 
 Aplikacja wymaga kilku bibliotek Pythona. Aby je zainstalować, uruchom poniższe polecenie w terminalu:
 
@@ -37,7 +38,7 @@ Jeśli plik requirements.txt nie istnieje, zainstaluj ręcznie wymagane bibliote
 
 pip install tkinter csv time random
 ```
-Pliki z labiryntem
+### Pliki z labiryntem
 
 Aplikacja ładuje pliki labiryntów w formacie CSV. Upewnij się, że w katalogu głównym projektu znajdują się pliki takie jak Maze1.csv, Maze2.csv, itd., które zawierają dane o strukturze labiryntu (poziomy, ściany, otwarte ściany).
 
@@ -51,19 +52,19 @@ python main.py
 ```
 W oknie aplikacji zobaczysz labirynt i agenta poruszającego się po nim. Agenta trenuje Q-learning, a po osiągnięciu celu otrzymuje nagrodę.
 
-Testowanie
-Testowanie agenta
+## Testowanie
+### Testowanie agenta
 
 Po uruchomieniu aplikacji agent będzie próbował przejść przez labirynt, ucząc się na podstawie nagród i kar za wykonane ruchy. Aby sprawdzić skuteczność agenta, można monitorować wynik w postaci sumy nagród za każdy epizod.
 
-Zmiana labiryntu
+### Zmiana labiryntu
 
 Labirynty zmieniają się automatycznie w trakcie działania aplikacji. Po wykonaniu kilku epizodów agent będzie testował kolejne labirynty, które są ładowane losowo z plików CSV.
 
-Monitorowanie postępu
+### Monitorowanie postępu
 
 W trakcie działania aplikacji monitorowane są takie parametry jak czas, etap, liczba wykonanych ruchów oraz suma nagród w każdym epizodzie. Możesz je śledzić na ekranie.
 
-Zmiana parametrów agenta
+### Zmiana parametrów agenta
 
 Możesz dostosować parametry agenta (epsilon, learning rate, discount factor) w kodzie, aby sprawdzić ich wpływ na uczenie się i wyniki agenta w różnych epizodach.
