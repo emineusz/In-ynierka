@@ -68,3 +68,12 @@ W trakcie działania aplikacji monitorowane są takie parametry jak czas, etap, 
 ### Zmiana parametrów agenta
 
 Możesz dostosować parametry agenta (epsilon, learning rate, discount factor) w kodzie, aby sprawdzić ich wpływ na uczenie się i wyniki agenta w różnych epizodach.
+
+### Tworzenie wykresów
+
+Aby utworzyć wykresy, które ilustrują sumę nagród w czasie należy uruchomić plik "doWykresów.py".
+
+```bash
+
+python doWykresów.py
+```
