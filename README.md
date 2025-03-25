@@ -7,12 +7,13 @@ Celem pracy inżynierskiej jest stworzenie aplikacji w języku Python, której g
 Projekt aplikacji obejmuje zaprojektowanie zarówno interfejsu wizualnego, jak i integrację z algorytmem uczenia przez wzmacnianie, który będzie sterować zachowaniem agenta w interaktywnym labiryncie. Interfejs użytkownika będzie umożliwiał interakcję z systemem, zapewniając wizualne odwzorowanie struktury labiryntu, a także informacje o stanie agenta. Kluczowym elementem aplikacji jest implementacja samego labiryntu, który stanowi dynamiczne, interaktywne środowisko, w którym agent podejmuje decyzje o swoim ruchu
 
 
-potrzebne biblioteki do realizacji projektu:
-
-Aby zaimplementować projekt w Pythonie, będziesz potrzebować kilku bibliotek, które pozwolą na efektywne tworzenie algorytmów uczenia maszynowego i implementację samego labiryntu. Poniżej znajduje się lista niezbędnych bibliotek:
-
 NumPy: Biblioteka do obsługi operacji numerycznych, takich jak manipulowanie tablicami, macierzami i obliczanie matematycznych operacji, które są niezbędne do implementacji algorytmów RL.
-
 Instalacja:
 
 pip install numpy
+
+
+Matplotlib: Biblioteka do tworzenia wykresów, która może być użyteczna do wizualizacji wyników eksperymentów i analizowania postępów agenta w nauce przechodzenia przez labirynt.
+Instalacja:
+
+pip install matplotlib
