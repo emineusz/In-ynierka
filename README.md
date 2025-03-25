@@ -1,3 +1,7 @@
+Więzień labiryntu – ucieczka z dynamicznie zmieniającego się labiryntu za pomocą sieci neuronowej z wykorzystaniem nauczania przez wzmacnianie
+
+
+
 Opis
 Aplikacja oparta na algorytmie uczenia przez wzmacnianie, której celem jest nauczenie agenta (sztucznej inteligencji) przechodzenia przez labirynt. Agent używa algorytmu Q-learning do podejmowania decyzji na podstawie nagród i kar, które zdobywa, poruszając się po labiryncie. Aplikacja umożliwia generowanie i wyświetlanie dynamicznie zmieniających się labiryntów w graficznej aplikacji opartej na bibliotece Tkinter. Labirynty są ładowane z plików CSV i prezentowane na planszy. Agent jest trenowany w serii epizodów, a jego działania są monitorowane.
 
