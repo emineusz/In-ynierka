@@ -1,4 +1,4 @@
-Więzień labiryntu – ucieczka z dynamicznie zmieniającego się labiryntu za pomocą sieci neuronowej z wykorzystaniem nauczania przez wzmacnianie
+# Więzień labiryntu – ucieczka z dynamicznie zmieniającego się labiryntu za pomocą sieci neuronowej z wykorzystaniem nauczania przez wzmacnianie
 
 
 
